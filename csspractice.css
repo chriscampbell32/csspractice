@@ -1,0 +1,42 @@
+
+section {
+	font-style: verdana;
+	color: green;
+	border: 3px solid #73ad21;
+	border-width: medium;
+	display: inline;
+	
+
+}
+
+section.static {
+	position: static;
+	top: 0px
+	
+}
+
+section.relative {
+	position: relative;
+	left: 30px;
+}
+
+.fixed {
+	position: fixed;
+	bottom: 50%;
+	right: 50%;
+	
+}
+
+section.absolute {
+	position: absolute;
+	top: 100px;
+	left:0;
+	width: 200px;
+
+}
+
+nav {
+	bottom: o;
+	right: o;
+
+}
